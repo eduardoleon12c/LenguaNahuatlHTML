@@ -1,0 +1,75 @@
+.navbar{
+    box-shadow: 2px 2px 5px #000;
+    opacity: .9;
+}
+
+.navbar .nav-item .nav-link{
+    color:aliceblue;
+}
+
+.main-header{
+    position: relative;
+    background: url(../img/backInicio.jpg);
+    background-size: cover;
+    min-height: 500px;
+}
+
+.background-overlay {
+    position: absolute;
+    background: rgba(231, 76, 60,0.7);
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#PreguntasF{
+    background: rgba(231, 76, 60,1);
+}
+
+.Team{
+    background: rgb(50, 45, 44);
+
+}
+
+#btnCajas{
+    background: rgba(231, 76, 60,1);
+}
+
+.jumbotron{
+    position: relative;
+    background: url(../img/nahuatl.jpg);
+    background-size: cover;
+    min-height: 400px;
+}
+
+.background-headerA {
+    position: absolute;
+    background: rgba(231, 76, 60,0.7);
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cardletra{
+    background-color: rgba(231, 76, 60,1);
+}
+
+.mapaa{
+    background-color: darkgray;
+    width: 60%;
+    margin: auto;
+}
+
+.mapaa path{
+    fill: rgba(231, 76, 60,1);
+    stroke: #000;
+    stroke-width: 2px;
+}
+
+.mapaa :hover{
+    fill: darkgray;
+}
